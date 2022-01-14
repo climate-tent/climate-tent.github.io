@@ -26,6 +26,10 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  background-image: url("./pictures/jurte.jpg");
+  background-color: #343a40;
+  background-size: cover;
+  background-position-x: center;
 }
 .carousel-item > img {
   position: absolute;
