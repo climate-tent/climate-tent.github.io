@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Kilma Zelt</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Klima Zelt</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Startseite</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./corona.html">Corona</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./pictures/jurte.jpg" class="d-block w-100" alt="Jurte">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Klima Zelt.</h1>
+            <p>Am 21.01., 13-20 Uhr an der Vauban Stusi finden ihr uns mit Zelten. Es gibt Vorträge, Workshops und mehr...</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Mehr Infos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+		<img src="./pictures/Fahrradwerkstatt.jpg" class="d-block w-100 img-so-dasses-past" alt="Selbsthilfewerkstatt">
+        <!--<svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>-->
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Fahrrad Werkstatt.</h1>
+            <p>Bring dein kaputes Rad und reperiere es zusammen mit den Leuten von LastenVelo in der Mobilen Fahrrad-Selbsthilfe-Werkstatt.</p>
+            <p><a class="btn btn-lg btn-primary" href="#werkstatt">Mehr Infos</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Vorträge.</h1>
+            <p>Schau dir eiunen der spannenden Vorträge aus dem Bereich Nachhaltigkeit an.</p>
+            <p><a class="btn btn-lg btn-primary" href="#vortraege">Programm Plan</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette" id="vortraege">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Vorträge. <span class="text-muted">It’ll blow your mind.</span></h2>
+        <p class="lead">Im laufe des Tages bieten wir verschiedene Vorträge an. Dabei sind:</p>
+		<dl class="row">
+			<dt class="col-sm-2">13:30 Uhr</dt>
+			<dd class="col-sm-9">Nathalie Niekisch (Wandelwerk) über Umweltpsychologie</dd>
+			
+			<dt class="col-sm-2">14:00 Uhr</dt>
+			<dd class="col-sm-9">FSC</dd>
+			
+			<dt class="col-sm-2">17:15 Uhr</dt>
+			<dd class="col-sm-9">Prof. Dr. Michael Müller über Nachhaltige Pharmacy</dd>
+			
+
+			
+			<dt class="col-sm-2">tba Uhr</dt>
+			<dd class="col-sm-9">Extintion Rebelion</dd>
+		</dl>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="werkstatt">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Selbsthilfe  Fahrradwerkstatt. <span class="text-muted">Angeboten von LastenVelo.</span></h2>
+        <p class="lead">Bringt euer Kaputtes Rad mit und repariert es mit unterstützung von den Menschen von LastenVelo Werkzeug und Material ist vorhanden.
+		Die mobiele Fahrradwerkstatt ist den ganezn Tag (13-20 Uhr) am Zelt. 
+		Infos zu LastenVelo und wo Ihr ihre Selbsthilfe-Werkstatt sonst findet, gibt es auf ihrer <a href="https://www.lastenvelofreiburg.de/selbsthilfewerkstatt/">Webseite</a>.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="./pictures/Selbsthilfewerkstatt.png" class="featurette-image img-fluid mx-auto"  width="500" alt="Selbsthilfewerkstatt">
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Diskussion, Austausch und Stockbrot. <span class="text-muted">Chillig.</span></h2>
+        <p class="lead">Kommt vorbei um euch gemüthlich ans Feuer zu setzen und euch über Klima, Nachhaltigkeit und dem Wetter auszutauschen. Wir bieten die Möglichkeit sich zu  Vernetzen,
+		Stockbrot zu essen und die gute Athmosphäre zu geniesen.</p>
+      </div>
+      <div class="col-md-5">
+        <img src="./pictures/stockbrot.jpg" class="featurette-image img-fluid mx-auto"
+        width="500" height="500" alt="Selbsthilfewerkstatt">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+	
+	    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Workshops. <span class="text-muted">Do it yourself.</span></h2>
+        <p class="lead">Nimm Teil an einem Workshop deiner Wahl wie z.B. Upcycling.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+	
+	<hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Mitmachen? <span class="text-muted">Bring dich ein!</span></h2>
+        <p class="lead">Du hast lust selber etwas zum Thema Nachhaltigkeit
+        vorzustellen oder möchtest ein Workshop anbieten?
+		Du bist Mitglied in einer Gruppe, welche sich fürs Klima einsetzt und
+        ihr möchtet euch vorstellen? Oder du willst uns einfach beim Auf- und
+        Abbau unterstützen?	Dann melde dich gerne bei uns unter email
+        oder +49 1575 8511849. Auch am Aktionstag könnt ihr noch spontan
+        vorbeikommen und mitmachen.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+	
+	<div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Wann und Wo. <span class="text-muted">Wie du uns findest.</span></h2>
+        <p class="lead">Wir sind am 21.10. von 13 Uhr bis 20
+        Uhr auf dem Gelände der Stusi Vauban. Ihr erkennt uns an schwarzen Zelten.</p>
+        <p><a href="https://www.openstreetmap.org/?mlat=47.97549&amp;mlon=7.82728#map=18/47.97549/7.82728">Größere Karte anzeigen</a></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <div class="ratio ratio-1x1">
+          <iframe width="500" height="500" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=7.823735475540161%2C47.97389971997989%2C7.830816507339478%2C47.97707434213074&amp;layer=mapnik&amp;marker=47.97548705545364%2C7.827275991439819"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+	
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2021 Klima Zelt &middot; <a href="./kontakt.html">Kontakt</a></p>
+  </footer>
+</main>
+
+
+    <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
